@@ -4,11 +4,15 @@ Which AI tools train on your inputs, in the vendors' own words. One row per vend
 the training clause quoted and dated, and every recorded change to those clauses since 2024,
 classified and dated. This is the data behind [trainedon.me](https://trainedon.me).
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23346775.svg)](https://doi.org/10.5281/zenodo.23346775)
+
 This repository is a dated snapshot of the published record, taken 2026-10-13 (the
 `generated_at` field inside the JSON files). The live files at
 [trainedon.me/data](https://trainedon.me/data) update nightly, and the
-[changes feed](https://trainedon.me/changes.atom) announces every new change. A Zenodo DOI for
-this snapshot is pending.
+[changes feed](https://trainedon.me/changes.atom) announces every new change. Each release is
+archived on Zenodo: [10.5281/zenodo.23346775](https://doi.org/10.5281/zenodo.23346775) resolves
+to the latest version, and this snapshot is
+[10.5281/zenodo.23346776](https://doi.org/10.5281/zenodo.23346776).
 
 ## Which AI tools train on your prompts (October 2026)
 
@@ -104,7 +108,7 @@ Method in full: [trainedon.me/methodology](https://trainedon.me/methodology).
 ## Cite
 
 > Trained On, "The registry and the change record" (dataset), https://trainedon.me/data.
-> Derived from Open Terms Archive, ODC-By 1.0.
+> DOI: 10.5281/zenodo.23346775. Derived from Open Terms Archive, ODC-By 1.0.
 
 A single change has its own citation line on its page, under "Cite this change". Citation
 metadata for this repository is in `CITATION.cff`. More on the

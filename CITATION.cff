@@ -7,6 +7,8 @@ authors:
     website: "https://trainedon.me"
 url: "https://trainedon.me/data"
 repository-code: "https://github.com/tuxnotfound/trained-on-dataset"
+doi: 10.5281/zenodo.23346775
+version: v2026.10.13
 license: ODC-By-1.0
 date-released: "2026-10-13"
 abstract: >-
