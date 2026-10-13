@@ -60,7 +60,7 @@ The JSON files carry the same rows plus `license`, `attribution` and (for vendor
 |---|---|
 | `vendor` | Product name, for example ChatGPT. |
 | `plan` | The plans the row covers. |
-| `answer` | Machine-readable answer: `trains_opt_out`, `no_training_default`, and so on. |
+| `answer` | Machine-readable answer, one of: `trains_opt_out`, `trains_no_opt_out`, `trains_regional_opt_out`, `trains_in_some_markets`, `no_training`, `no_training_default`, `your_choice_default_unstated`. |
 | `answer_text` | The answer in plain words. |
 | `quote` | The training clause, verbatim from the tracked document. |
 | `document` | Which document the quote is from. |
@@ -76,7 +76,7 @@ The JSON files carry the same rows plus `license`, `attribution` and (for vendor
 | `date` | Date of the capture that carries the change. |
 | `vendor`, `document` | Which product and which document changed. |
 | `classification` | `position` (the training rule changed), `scope` (a plan, product or data source joined an existing rule), or `disclosure` (position unchanged, practice described). |
-| `direction` | What the change did, for example `now_trains`. |
+| `direction` | What the change did, one of: `now_trains`, `no_longer_trains`, `scope_widened`, `scope_narrowed`, `disclosure`. |
 | `summary` | The change in at most 30 words, quoting the clause. |
 | `decided_by` | `panel` (three readers agreed) or `human`. |
 | `reverses` | The date of an earlier change this one undoes, when it does. |
