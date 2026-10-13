@@ -1,0 +1,12 @@
+{
+  "title": "Trained On: the registry and the change record",
+  "upload_type": "dataset",
+  "description": "Which AI tools train on your inputs, in the vendors' own words: one row per vendor plan with the training clause quoted and dated, and every recorded change to those clauses since 2024, classified and dated. Derived from the Open Terms Archive genai-contrib collection. The live record is at https://trainedon.me/data and updates nightly.",
+  "creators": [{ "name": "Trained On" }],
+  "license": "ODC-By-1.0",
+  "keywords": ["AI training", "terms of service", "privacy policy", "generative AI", "prompts"],
+  "related_identifiers": [
+    { "relation": "isDerivedFrom", "identifier": "https://github.com/OpenTermsArchive/genai-contrib-versions" },
+    { "relation": "isSupplementTo", "identifier": "https://trainedon.me/data" }
+  ]
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this dataset, cite it as below."
+title: "Trained On: the registry and the change record"
+type: dataset
+authors:
+  - name: "Trained On"
+    website: "https://trainedon.me"
+url: "https://trainedon.me/data"
+repository-code: "https://github.com/tuxnotfound/trained-on-dataset"
+license: ODC-By-1.0
+date-released: "2026-10-13"
+abstract: >-
+  Which AI tools train on your inputs, in the vendors' own words: one row per vendor plan
+  with the training clause quoted and dated, and every recorded change to those clauses
+  since 2024, classified and dated. Derived from the Open Terms Archive genai-contrib
+  collection.
+keywords:
+  - AI training
+  - terms of service
+  - privacy policy
+  - generative AI
+  - prompts
